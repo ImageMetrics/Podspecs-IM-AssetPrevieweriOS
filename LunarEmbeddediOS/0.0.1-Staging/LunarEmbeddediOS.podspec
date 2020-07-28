@@ -79,6 +79,7 @@ LICENSE
   s.platform = :ios, '12.0'
 
   # Build Settings
+  s.dependency 'LiveDriverSDKiOS', '5.7.0-RC1.57562'
   s.frameworks = 'Metal', 'OpenGLES', 'CoreGraphics', 'CoreLocation', 'CoreVideo', 'AudioToolbox', 'AVFoundation', 'Accelerate', 'SceneKit', 'ARKit', 'QuartzCore', 'CoreMedia', 'UIKit', 'WebKit', 'SystemConfiguration', 'Foundation'
 
   # File patterns
