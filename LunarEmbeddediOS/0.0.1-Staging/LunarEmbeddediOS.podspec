@@ -73,13 +73,16 @@ LICENSE
 }
   s.homepage = 'http://image-metrics.com/'
   s.summary = 'LunarEmbeddediOS framework'
-  s.source = { :http => 'https://nexus.apps.image-metrics.net/repository/pods-im-assetpreviewerios/LunarEmbeddediOS-0.0.1-Staging+235.1d9c5daeab93.AssetPreviewer.zip'}
+  s.source = { :http => 'https://nexus.apps.image-metrics.net/repository/pods-im-assetpreviewerios/LunarEmbeddediOS-0.0.1-Staging+237.32209dc8c7b7.AssetPreviewer.zip'}
 
   # Platform
   s.platform = :ios, '12.0'
+  s.swift_version = '5.0'
 
   # Build Settings
   s.dependency 'LiveDriverSDKiOS', '5.8.0-ALPHA1.61447'
+  s.dependency 'APNGKit', '~> 1.1'
+  s.dependency 'Observable', '~> 2.0'
   s.frameworks = 'Metal', 'OpenGLES', 'CoreGraphics', 'CoreLocation', 'CoreVideo', 'AudioToolbox', 'AVFoundation', 'Accelerate', 'SceneKit', 'ARKit', 'QuartzCore', 'CoreMedia', 'UIKit', 'WebKit', 'SystemConfiguration', 'Foundation'
 
   # File patterns
