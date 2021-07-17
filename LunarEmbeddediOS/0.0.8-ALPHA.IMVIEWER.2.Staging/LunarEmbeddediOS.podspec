@@ -74,7 +74,7 @@ LICENSE
 }
   s.homepage = 'http://image-metrics.com/'
   s.summary = 'LunarEmbeddediOS framework'
-  s.source = { :http => 'https://nexus.apps.image-metrics.net/repository/pods-im-assetpreviewerios/LunarEmbeddediOS-0.0.8-ALPHA.IMVIEWER.2.Staging+3634eca55255.AssetPreviewer.zip'}
+  s.source = { :http => 'https://nexus.apps.image-metrics.net/repository/pods-im-assetpreviewerios/LunarEmbeddediOS-0.0.8-ALPHA.IMVIEWER.2.Staging+82691e5e7cc8.AssetPreviewer.zip'}
 
   # Platform
   s.platform = :ios, '13.0'
