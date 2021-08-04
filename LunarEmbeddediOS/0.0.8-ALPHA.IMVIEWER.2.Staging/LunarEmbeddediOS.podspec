@@ -74,7 +74,7 @@ LICENSE
 }
   s.homepage = 'http://image-metrics.com/'
   s.summary = 'LunarEmbeddediOS framework'
-  s.source = { :http => 'https://nexus.apps.image-metrics.net/repository/pods-im-assetpreviewerios/LunarEmbeddediOS-0.0.8-ALPHA.IMVIEWER.2.Staging+0aa8827be18f.AssetPreviewer.zip'}
+  s.source = { :http => 'https://nexus.apps.image-metrics.net/repository/pods-im-assetpreviewerios/LunarEmbeddediOS-0.0.8-ALPHA.IMVIEWER.2.Staging+1dea592f83f9.AssetPreviewer.zip'}
 
   # Platform
   s.platform = :ios, '13.0'
@@ -87,7 +87,7 @@ LICENSE
   s.dependency 'GRMustache', '~> 7.3'
   s.dependency 'dsBridge', '~> 3.0'
   s.dependency 'Observable', '~> 2.0'
-  s.dependency 'LiveDriverSDKiOS', '5.10.0-Alpha1.68548'
+  s.dependency 'LiveDriverSDKiOS', '5.8.0-ALPHA1.61844'
   s.dependency 'BodyDriverSDKiOS', '1.3.0-Alpha1.5777'
   s.dependency 'ReSwift', '~> 6.0'
   s.dependency 'Flurry-iOS-SDK/FlurrySDK', '~> 11.1'
