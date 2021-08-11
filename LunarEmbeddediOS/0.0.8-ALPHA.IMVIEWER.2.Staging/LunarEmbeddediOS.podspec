@@ -74,7 +74,7 @@ LICENSE
 }
   s.homepage = 'http://image-metrics.com/'
   s.summary = 'LunarEmbeddediOS framework'
-  s.source = { :http => 'https://nexus.apps.image-metrics.net/repository/pods-im-assetpreviewerios/LunarEmbeddediOS-0.0.8-ALPHA.IMVIEWER.2.Staging+1dea592f83f9.AssetPreviewer.zip'}
+  s.source = { :http => 'https://nexus.apps.image-metrics.net/repository/pods-im-assetpreviewerios/LunarEmbeddediOS-0.0.8-ALPHA.IMVIEWER.2.Staging+5b76bfaf7d60.AssetPreviewer.zip'}
 
   # Platform
   s.platform = :ios, '13.0'
@@ -92,7 +92,7 @@ LICENSE
   s.dependency 'ReSwift', '~> 6.0'
   s.dependency 'Flurry-iOS-SDK/FlurrySDK', '~> 11.1'
   s.dependency 'TMCache', '~> 1.2.3'
-  s.dependency 'IMGLTFSceneKit', '1.35.1'
+  s.dependency 'IMGLTFSceneKit', '1.35.2'
   s.dependency 'CocoaLumberjack', '~> 3.0'
   s.frameworks = 'AudioToolbox', 'AVFoundation', 'Accelerate', 'Metal', 'OpenGLES', 'CoreGraphics', 'CoreVideo', 'CoreLocation', 'WebKit', 'UIKit', 'QuartzCore', 'CoreMedia', 'SystemConfiguration', 'SceneKit', 'ARKit', 'Foundation'
 
